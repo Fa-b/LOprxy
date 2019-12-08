@@ -1,0 +1,27 @@
+{
+    "name": "huettenserver",
+    "version": "1.0.0",
+    "description": "nodeJS webserver for the raspberry in the hut ",
+    "main": "webserver.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/agrestic1/huette-raspberry.git"
+    },
+    "author": "Los Ochos",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/agrestic1/huette-raspberry/issues"
+    },
+    "homepage": "https://github.com/agrestic1/huette-raspberry#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "fs": "0.0.1-security",
+        "http": "0.0.0",
+        "i2c-bus": "^5.1.0",
+        "socket.io": "^2.3.0",
+        "ws": "^7.2.0"
+    }
+}
