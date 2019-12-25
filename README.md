@@ -1,13 +1,10 @@
-# huette-raspberry
-NodeJS webserver to control lights, ...
+# LOprxy
+NodeJS server proxy to communicate with a UMTS nodeJS client
 
 # Installation
 clone repository
 
-cd huette-raspberry
 
-node install
+npm install
 
-node webserver.js
-
-open website on any browser using port 8080. E.g. on server itself open http://localhost:8080/
+node server.js
