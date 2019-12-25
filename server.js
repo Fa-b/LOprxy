@@ -32,7 +32,7 @@ http.listen(8030, '0.0.0.0', function () { //listen to port 8030
 io.sockets.on('connection', (socket) => { // Socket Connection to clients
 
     // clients[socket.id] = socket;
-    // console.log('New Client with ID', socket.id);
+    console.log('New Client with ID', socket.id);
 
     if (socket.handshake.query.isSubject) {
         console.log('Subject is present :-)');
